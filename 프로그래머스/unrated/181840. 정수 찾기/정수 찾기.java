@@ -4,8 +4,10 @@ class Solution {
         
         for(int i=0; i<num_list.length; i++)    {
                 if(n==num_list[i])   
-                    answer = 1;
+                    return 1;
+                
         }
+        
         return answer;
     }
 }
