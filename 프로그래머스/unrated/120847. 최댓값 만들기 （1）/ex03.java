@@ -1,5 +1,5 @@
 //시도
-class {
+class Solution {
   int answer = 0;
         int max = 0;
         int sec = 0;
