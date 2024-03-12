@@ -2,8 +2,8 @@ class Solution {
     fun solution(n: Int): Int {
        
         var answer = 0
-        var result = n.toString().toCharArray()
-        for(i in result) {
+        var nStr = n.toString()
+        for(i in nStr) {
             answer += i.toString().toInt()
         }
         
