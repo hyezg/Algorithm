@@ -1,12 +1,12 @@
 class Solution {
     fun solution(n: Int): Int {
-        var input = n
-        var answer = 0
        
-        while(input != 0){
-            answer += input%10
-            input /=10
+        var answer = 0
+        var result = n.toString().toCharArray()
+        for(i in result) {
+            answer += i.toString().toInt()
         }
+        
         return answer
     }
 }
