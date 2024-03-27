@@ -4,9 +4,9 @@ class Solution {
             return phone_number
         }
 
-        val lastFourDigits = phone_number.substring(phone_number.length - 4)
-        val maskedPart = "*".repeat(phone_number.length - 4)
+        val lastFour = phone_number.substring(phone_number.length - 4)
+        val star = "*".repeat(phone_number.length - 4)
 
-        return "$maskedPart$lastFourDigits"
+        return "$star$lastFour"
     }
 }
