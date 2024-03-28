@@ -1,14 +1,13 @@
 class Solution {
     fun solution(numbers: IntArray): Int {
-        var answer: Int = 0
-        var i: IntArray
+        var sum: Int = 0
 
         for (i in 0..9) {
             if (!numbers.contains(i)) {
-                answer += i
+                sum += i
             }
         }
 
-        return answer
+        return sum
     }
 }
