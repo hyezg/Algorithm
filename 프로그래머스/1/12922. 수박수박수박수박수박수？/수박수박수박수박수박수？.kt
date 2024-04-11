@@ -1,8 +1,6 @@
 
 class Solution {
     fun solution(n: Int): String {
-        var answer1 = "수"
-        var answer2 = "박"
         var answer =""
 
         if(n %2!=0){
